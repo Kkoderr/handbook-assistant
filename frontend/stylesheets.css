@@ -63,7 +63,7 @@
         .bot-avatar {
             width: 48px;
             height: 48px;
-            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            background: linear-gradient(45deg, lightcyan, aliceblue);
             border-radius: 50%;
             display: flex;
             align-items: center;
