@@ -50,3 +50,19 @@ Before using the bot efficiently, perform the following one-time manual setup in
   - This workflow handles user queries and returns AI-generated answers.
 
 ⚠️ Manual triggering is only required once per dataset. After that, the bot works continuously.
+
+### Customization
+
+- Add new LLMs or update prompts in the backend.
+
+- Extend n8n workflows for new document types or additional automations.
+
+- Enhance frontend UI (chat portal, dashboard, etc.).
+
+### Contributors
+
+This is a community-friendly project! Pull requests, bug reports, and enhancements are welcome. Start with an issue labeled enhancement or bug.
+
+License
+MIT
+ — Do your thing responsibly 😉
