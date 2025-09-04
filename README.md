@@ -51,7 +51,7 @@ Before using the bot efficiently, perform the following one-time manual setup in
 
 ⚠️ Manual triggering is only required once per dataset. After that, the bot works continuously.
 
-### Customization
+## Customization
 
 - Add new LLMs or update prompts in the backend.
 
@@ -59,7 +59,7 @@ Before using the bot efficiently, perform the following one-time manual setup in
 
 - Enhance frontend UI (chat portal, dashboard, etc.).
 
-### Contributors
+## Contributors
 
 This is a community-friendly project! Pull requests, bug reports, and enhancements are welcome. Start with an issue labeled enhancement or bug.
 
