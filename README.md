@@ -29,24 +29,24 @@ cd handbook-assistant
 docker compose up --build
 ```
 
-###n8n Workflow Setup
+### n8n Workflow Setup
 
 Before using the bot efficiently, perform the following one-time manual setup in n8n:
 
--Open the n8n UI at http://localhost:5678.
+- Open the n8n UI at http://localhost:5678.
 
--Import the workflow JSON from n8n_workflow/.
+- Import the workflow JSON from n8n_workflow/.
 
--Trigger the file parsing workflow manually:
+- Trigger the file parsing workflow manually:
 
-  -This parses handbook PDFs and inserts Markdown content into Postgres.
+  - This parses handbook PDFs and inserts Markdown content into Postgres.
 
-  -If using embeddings, it creates vector entries in the database.
+  - If using embeddings, it creates vector entries in the database.
 
--Activate the AI workflow:
+- Activate the AI workflow:
 
-  -Once parsing and DB setup are done, turn the workflow on.
+  - Once parsing and DB setup are done, turn the workflow on.
 
-  -This workflow handles user queries and returns AI-generated answers.
+  - This workflow handles user queries and returns AI-generated answers.
 
 ⚠️ Manual triggering is only required once per dataset. After that, the bot works continuously.
